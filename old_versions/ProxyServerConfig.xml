@@ -1,0 +1,13 @@
+<proxy_config>
+  <!-- type = 0 - Proxy is determined based on the application proxy set using setApplicationProxy() -->
+  <!-- type = 1 - Socks5 proxying is used -->
+  <!-- type = 2 - No proxying is used -->
+  <!-- type = 3 - HTTP transparent proxying is used -->
+  <!-- type = 4 - Proxying for HTTP requests only -->
+  <!-- type = 5 - Proxying for FTP requests only -->
+  <type>2</type>
+  <host></host>
+  <port>0</port>
+  <user></user>
+  <password></password>
+</proxy_config>
